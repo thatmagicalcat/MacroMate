@@ -76,7 +76,7 @@ int main(int argc, const char ** const argv) {
 
   std::ifstream in(
 #if defined(_DEBUG)
-    "macro/code.txt"
+    "code.txt" // temporary file for testing
 #else
     argv[1]
 #endif
